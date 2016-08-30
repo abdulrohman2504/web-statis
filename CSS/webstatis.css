@@ -1,0 +1,153 @@
+body{
+background: grey;
+}
+*{margin: 0px; padding: 0px;}
+header,footer,section, nav{display: block;}
+.webstatis{
+margin: 15px auto;
+width: 980px;
+}
+#logo{
+float: left;
+height: 125px;
+margin-right: 10px;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+border-radius:10px 10px 10px 0 ; 
+}
+#judul{
+height: 115px;
+margin: 10px auto -15px auto;
+padding: 20px 0 20px 10px;
+border-radius: 10px 10px 0 0;
+box-shadow: 0 0 10px rgb(0,0,0) inset;
+background: url(../gambar/jj.jpg); background: contain;
+}
+#judul h1{
+font-size: 30px;
+line-height: 38px;
+font-weight: 500px;
+color: yellow;
+}
+#judul h2{
+margin-top: 10px;
+font-size: 28px;
+font-weight: 300px;
+color: red;
+}
+
+/*bagianmenu-Navigasi*/
+
+nav ul{
+	width: 100%;
+	background:brown;
+	list-style: none;
+	position: relative;
+		display: inline-table;
+		padding: 0;
+	border-radius: 0 0 10px 10px;
+}
+nav ul:after{
+	content:0;
+	clear: both;
+	display: block;
+}
+
+nav ul li{
+	float:  left;
+	border-radius: 10px 10px 10px 10px;
+}
+
+nav ul li:hover{
+	background: #733f94;
+	
+}
+nav ul li a{
+	color: #E45E00;
+}
+nav ul li a{
+	display:  block;
+	padding: -20px 10px;
+	color:  #1E1614;
+	text-decoration:  none;
+}
+/*menghilangkan semua sub menu*/
+nav ul ul{
+	display: none;
+	background: greenyellow;
+	border-radius: 10px 10px 10px 10px;
+	padding: 0;
+	position:  absolute;
+	top: 100%;
+	width: 250px;
+	
+}
+/*munculkan sub-menuketika didekati kursor*/
+nav ul li:hover ul{
+	display: block;
+}
+/*unutk susbmenudidalamsubmenu */
+nav ul ul li{
+	float: none;
+	border-top: 1px solid #000000;
+	position: relative;
+	border-radius: 10px 10px 10px 10px;
+	}
+	
+nav ul ul li:hover{
+	position: absolute;
+	left: 100%;
+	top: 0;
+}	
+
+
+
+body{
+background: url(../gambar/h.jpg); background: contain;
+}
+*{margin: 5px; padding: 6px; }
+header,footer,section, nav{display: block;}
+.webstatis{
+margin: 15px auto;
+width: 980px;
+}
+#salam{
+height: 70px;
+border-radius: 20px 20px 20px 20px;
+background: url(../gambar/ty.jpg); background: contain;
+}
+#logo{
+float: left;
+height: 125px;
+margin-right: 10px;
+text-shadow:0 0 10px rgb(0,0,0) inset;
+border-radius: 10px 10px 10px 10px; 
+}
+/*bagian isi*/
+#konten{
+float: left;
+width: 530px;
+box-shadow: 0 0 10px rgb(0,0,0)inset;
+background: url(../gambar/yy.jpg); background: contain;
+}
+#sidebar{
+float: right;
+width: 330px;
+padding-left: 15px;
+box-shadow: 0 0 10px rgb(0,0,0)inset;
+background: url(../gambar/ty.jpg); background: contain;
+}
+
+/*bagian bawah-footer*/
+#footer{
+clear: both;
+width: 980px;
+padding-top: 10px;
+padding-bottom: 10px;
+font-family: verdana;
+font-size: 20px;
+text-align: center;
+border-radius: 0 0 10px 10px;
+box-shadow: 0 0 10px rgb(0,0,0) inset;
+text-shadow: 0 0 10px rgb(0,0,0) inset;
+background: url(../gambar/jj.jpg); background: contain;
+}
